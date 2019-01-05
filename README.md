@@ -8,7 +8,7 @@ Automates purchases for newyorksupreme.com product drops.
 ```
 $ git clone https://github.com/dimavdp/supreme-purchase-bot
 $ cd supreme-purchase-bot
-$ virtualenv venv --python=python3.7
+$ virtualenv venv --python=python3.7 #optional
 $ pip install -r requirements.txt
 ```
 
