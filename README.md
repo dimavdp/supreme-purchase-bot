@@ -1,4 +1,4 @@
-# supreme-bot
+# supreme-purchase-bot
 
 Automates purchases for newyorksupreme.com product drops.
 
@@ -6,8 +6,8 @@ Automates purchases for newyorksupreme.com product drops.
 
 #### STEP ONE
 ```
-$ git clone https://github.com/jg-fisher/supreme-bot
-$ cd supreme-bot
+$ git clone https://github.com/dimavdp/supreme-purchase-bot
+$ cd supreme-purchase-bot
 $ virtualenv venv --python=python3.7
 $ pip install -r requirements.txt
 ```
@@ -17,15 +17,15 @@ Create a config.py file in the local directory that looks similar to this for ea
 
 ```
 keys = {
-        "product_url": "https://www.supremenewyork.com/shop/bags/gwdz8oy2a/ya1zks84e",
-        "name": "John Fisher",
-        "email": "email@gmail.com",
+        "product_url": "https://www.supremenewyork.com/shop/sweatshirts/yw4mifo2y",
+        "name": "Ky Nguen",
+        "email": "test@gmail.com",
         "phone_number": "6789998212",
-        "street_address": "Forest Hills Dr.",
-        #"city": "Timbuktu", this is autofilled
+        "street_address": "Arbat St.",
+        "city": "Moscow", 
         "zip_code": "91601",
         "card_cvv": "666",
-        "card_number": "1228199669918221"
+        "card_number": "1524615272839913"
 }
 ```
 
