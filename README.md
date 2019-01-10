@@ -27,6 +27,8 @@ keys = {
         "card_cvv": "666",
         "card_number": "1524615272839913"
 }
+
+#change with your own data
 ```
 
 #### STEP THREE
